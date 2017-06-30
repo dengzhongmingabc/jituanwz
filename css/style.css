@@ -1,0 +1,231 @@
+/**公共样式*/
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color:#f3f3f3 ;
+}
+.content{
+    width:1000px;
+    margin: 0 auto;
+}
+
+.logo{
+    background: url("../images/logo.jpg");
+    width: 545px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sousuo{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 155px;
+}
+
+.textinput{
+    height: 44px;
+    width: 216px;
+    padding-left: 10px;
+    color: #c0c0c0;
+    font-size: 23px;
+    vertical-align: top;
+}
+.button{
+    height: 48px;
+    width: 70px;
+    background-color:#3598db ;
+    border: none;
+    color: #fff;
+    font-size:18px ;
+    line-height: 48px;
+    vertical-align: top;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #3598db;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    width: 93px;
+    text-align: center;
+    color: #fff;
+    border-right: #2f89c7 solid 1px;
+}
+.nav li a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    width: 93px;
+    text-align: center;
+    color: #fff;
+}
+.nav a:hover,.nav .lifirst{
+    background-color:#2f89c5 ;
+}
+
+
+/*body_style*/
+.body_wrap{
+    margin-top:22px;
+}
+article{
+    display: inline-block;
+    width:629px;
+}
+
+aside{
+    display: inline-block;
+    width:350px;
+}
+
+
+/*轮播图*/
+div.wrap a{
+    color:#fff;
+}
+div#slide-holder {
+    width : 628px;
+    height : 278px;
+}
+div#slide-runner {
+    width : 628px;
+    height : 278px;
+    overflow : hidden;
+    position : absolute;
+}
+div#slide-holder img {
+    margin : 0;
+    display : none;
+    position : absolute;
+}
+div#slide-controls {
+    left : 0;
+    bottom : 0px;
+    width : 628px;
+    height : 46px;
+    display : none;
+    position : absolute;
+}
+div#slide-controls p.text {
+    float : left;
+    color : #fff;
+    display : inline;
+    font-size : 10px;
+    line-height : 16px;
+    margin : 15px 0 0 20px;
+    text-transform : uppercase;
+}
+p#slide-nav {
+    float : right;
+    height : 24px;
+    display : inline;
+    margin : 11px 15px 0 0;
+}
+p#slide-nav a {
+    float : left;
+    width : 24px;
+    height : 24px;
+    display : inline;
+    font-size : 11px;
+    margin : 0 5px 0 0;
+    line-height : 24px;
+    font-weight : bold;
+    text-align : center;
+    text-decoration : none;
+    background-position : 0 0;
+    background-repeat : no-repeat;
+    border-radius: 50px;
+}
+p#slide-nav a.on {
+    background-position : 0 -24px;
+}
+p#slide-nav a {
+    background-image : url(../images/silde-nav.png);
+}
+
+
+header{
+    margin-top:10px;
+    background: url("../images/title_bg.jpg") repeat-x;
+    height: 45px;
+
+}
+.xinwen li{
+    width:629px;
+    height:173px;
+}
+.xinweitou{
+    height:45px;
+    line-height: 45px;
+    margin-left:10px;
+}
+.tupian{
+    background: url("../images/news_10.jpg");
+    width: 314px;
+    height: 163px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.fontclass{
+    width: 315px;
+    height: 163px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #3598db;
+    vertical-align: top;
+    padding: 5px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+.fontclass .fonttitle{
+    color: #fff;
+    border-bottom: 1px solid #c7c3c4;
+}
+.fontclass .fontcontent{
+    color: #d9dadc;
+    height: 115px;
+    overflow: hidden;
+}
+
+
+/*活动样式*/
+.huodong .img1{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 9px;
+}
+
+.huodong ul{
+    list-style-position: inside;
+    list-style: none;
+}
+
+.huodong li:before{
+    content: counter(indexlist);
+    width:20px;
+    height: 20px;
+    padding:3px;
+    display: inline-block;
+    text-align: center;
+    background-color: #444;
+    margin-right: 5px;
+}
+
+.huodong li:nth-child(1):before,.huodong li:nth-child(2):before,.huodong li:nth-child(3):before{
+    background-color: #3598db;
+}
+
+.huodong li{
+    counter-increment: indexlist;
+    margin-top: 9px;
+}
